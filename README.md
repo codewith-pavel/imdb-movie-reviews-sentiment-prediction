@@ -150,4 +150,5 @@ This script supports **real-time sentiment prediction** using either **ML classi
   - DL: Hybrid Bi-LSTM + Bi-GRU.
   - Ensemble options (stacking) available for ML.
 <img width="955" height="556" alt="demo_script" src="https://github.com/user-attachments/assets/23f1ea88-e661-4dd4-97e0-758ac0ecccb2" />
-# The image shows a console output of a sentiment prediction demo. It includes predictions for predefined sentences and an interactive mode where the user inputs custom sentences, with each sentence displaying the predicted sentiment (Positive/Negative) and its probability.
+The image displays a console output from a <span style="color:blue">sentiment prediction demo</span>, showcasing predictions for <span style="color:green">predefined sentences</span> as well as an <span style="color:orange">interactive mode</span> where users can input custom sentences. For each sentence, the demo outputs the predicted sentiment (<span style="color:purple">Positive</span> or <span style="color:red">Negative</span>) along with its associated probability, providing a clear and immediate understanding of the model’s predictions.
+
