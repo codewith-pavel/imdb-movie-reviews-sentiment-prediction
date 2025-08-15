@@ -129,4 +129,23 @@ A hybrid **Bidirectional LSTM + GRU model** for binary text classification.
    - While the accuracy is slightly lower than the top ML models, it provides **better balance in precision and recall** for imbalanced datasets.  
    - Deep learning models like this can capture complex patterns that classical ML models may miss, especially in sequential or text-based data.
 
+## Demo Script: Sentiment Prediction with Hybrid Bi-LSTM + Bi-GRU
+
+This script allows **real-time sentiment prediction** using a trained hybrid Bi-LSTM + Bi-GRU model. 
+
+### Features
+
+- **Predefined Sentences**
+  - The script first predicts sentiment for a set of predefined demo sentences.
+  - Displays the predicted label (Positive: 1, Negative: 0) and probability for each sentence.
+
+- **Interactive Mode**
+  - Users can enter custom sentences for prediction.
+  - Type `exit` to quit the interactive mode.
+  - Each input sentence is processed, and the model outputs predicted sentiment along with the probability.
+
+- **Hybrid Model Option**
+  - Combines Bi-LSTM and Bi-GRU layers to leverage sequential patterns in text.
+  - Provides robust predictions for both predefined and user-input sentences.
+
 <img width="955" height="556" alt="demo_script" src="https://github.com/user-attachments/assets/23f1ea88-e661-4dd4-97e0-758ac0ecccb2" />
