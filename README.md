@@ -1,4 +1,9 @@
-over 100mb model file link : https://drive.google.com/drive/folders/1mM40NK5xgqS5SYN7T_aDr-Z-r9Jjbpby?usp=sharing
+## 📦 Model Download
+
+Due to GitHub's 100 MB file size limit, the trained model file is hosted on Google Drive.
+
+🔗 **[Download Trained Model](https://drive.google.com/drive/folders/1mM40NK5xgqS5SYN7T_aDr-Z-r9Jjbpby?usp=sharing)**  
+
 # imdb-movie-reviews-sentiment-prediction
 ## 🛠 Tools, Libraries, and Frameworks Used
 
