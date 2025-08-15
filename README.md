@@ -40,6 +40,49 @@ Due to GitHub's 100 MB file size limit, the trained model file is hosted on Goog
 - **Kaggle** – for model training and experimentation
 - **Google Drive / gdown** – for dataset downloading and model storage
 
+## Machine Learning Approach: IMDB Movie Reviews Classification
+
+A complete workflow for **text classification** using TF-IDF features and multiple machine learning classifiers.
+
+### Key Steps
+
+- **Data Loading & Inspection**
+  - Load training, test, and extra test datasets
+  - Explore data structure and sample reviews
+
+- **Text Preprocessing**
+  - Remove HTML tags, punctuation, numbers
+  - Convert to lowercase and remove stopwords
+  - Store cleaned text in a new column
+
+- **Feature Extraction**
+  - Convert text to TF-IDF features
+  - Limit vocabulary to top 42,000–43,000 words
+
+- **Train/Test Split**
+  - 80/20 split with stratification
+  - Separate features (X) and labels (y)
+
+- **Model Training & Evaluation**
+  - Train multiple classifiers:  
+    Logistic Regression, Linear SVM, Multinomial Naive Bayes, Random Forest, Gradient Boosting  
+  - Evaluate with Accuracy, Precision, Recall, F1-score, and confusion matrices
+  - Perform 5-fold stratified cross-validation for robust evaluation
+
+- **Hyperparameter Optimization**
+  - Use GridSearchCV with 5-fold cross-validation
+
+- **Stacking Ensemble**
+  - Combine base classifiers with Logistic Regression as final estimator
+  - Evaluate ensemble with cross-validation and test sets
+
+- **Model Saving**
+  - Save trained classifiers and TF-IDF vectorizer as `.pkl` files for future use
+
+- **Demo / Inference**
+  - Interactive sentiment prediction using saved models and vectorizer
+  - Allows real-time testing without retraining
+
 ## Deep Learning Approach: Hybrid Bi-LSTM + Bi-GRU
 
 A hybrid **Bidirectional LSTM + GRU model** for binary text classification.
