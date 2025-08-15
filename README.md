@@ -40,6 +40,17 @@ Due to GitHub's 100 MB file size limit, the trained model file is hosted on Goog
 - **Kaggle** – for model training and experimentation
 - **Google Drive / gdown** – for dataset downloading and model storage
 
+## Deep Learning Approach: Hybrid Bi-LSTM + Bi-GRU
+
+A hybrid **Bidirectional LSTM + GRU model** for binary text classification.
+
+- **Preprocessing:** Text cleaning, tokenization, and padding  
+- **Architecture:** Embedding layer → Bi-LSTM + Bi-GRU → Dense layers with Dropout  
+- **Training:** Binary cross-entropy loss, sigmoid activation, EarlyStopping & ReduceLROnPlateau  
+- **Inference:** Predict on test/demo sentences (interactive or notebook mode)  
+- **Evaluation:** Confusion matrix, classification report, accuracy/loss curves  
+- **Flexibility:** Works in both interactive and non-interactive notebook environments
+
 ### Machine Learning Model Insights
 
 1. **Logistic Regression**  
