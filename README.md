@@ -149,7 +149,5 @@ This script supports **real-time sentiment prediction** using either **ML classi
   - ML: Logistic Regression, SVM, Random Forest, Naive Bayes.
   - DL: Hybrid Bi-LSTM + Bi-GRU.
   - Ensemble options (stacking) available for ML.
-ChatGPT said:
-
-**The image shows a console output of a sentiment prediction demo. It includes predictions for predefined sentences and an interactive mode where the user inputs custom sentences, with each sentence displaying the predicted sentiment (Positive/Negative) and its probability.**
 <img width="955" height="556" alt="demo_script" src="https://github.com/user-attachments/assets/23f1ea88-e661-4dd4-97e0-758ac0ecccb2" />
+**The image shows a console output of a sentiment prediction demo. It includes predictions for predefined sentences and an interactive mode where the user inputs custom sentences, with each sentence displaying the predicted sentiment (Positive/Negative) and its probability.**
